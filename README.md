@@ -46,7 +46,6 @@ Accept: application/json
 Body: <Job>
 ```
 
-Returns an HTTP 202 (ACCEPTED).
 
 Request Body example:
 
@@ -60,7 +59,7 @@ Request Body example:
       }
 ```
 
-Response Body example:
+Returns an HTTP 202 (ACCEPTED). Response Body example:
 ```scala
      {
         "id": "job-1",
