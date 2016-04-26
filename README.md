@@ -11,9 +11,11 @@ How To Run
 Please ensure that you have [SBT](http://www.scala-sbt.org/) installed, along with its dependencies. To run the service just issue the following command:
 
 ```
+$ git clone https://github.com/adilakhter/hashing-as-a-service.git
+$ cd hashing-as-a-service
 $ sbt service/run
 
-```
+``` 
 
 Service will be started on port 9000 listening to all network interfaces. 
 
